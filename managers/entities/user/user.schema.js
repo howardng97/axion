@@ -1,12 +1,9 @@
-
-
 module.exports = {
-    createUser: [
-        {
-            model: 'username',
-            required: true,
-        },
-    ],
-}
-
-
+  createUser: [
+    {
+      model: "username",
+      path: "username",
+      required: true,
+    },
+  ],
+};
